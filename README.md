@@ -16,9 +16,11 @@ The project covers the following steps:
 
 5. **Evaluation**: The trained model is evaluated on a separate test dataset to measure its accuracy in recognizing handwritten digits.
 
+6. **Data Augmentation**: I tried a few versions of the image set, including inverting the pixel values, and scaling them. However, I ran into an issue where all predictions were just 1s.
+
 ## Current Status
 
-This project is a work in progress. The initial steps, including data loading, preprocessing, and defining the neural network architecture, have been completed. The model has been trained and evaluated on the MNIST dataset, achieving a test accuracy of approximately 97%.
+This project is a work in progress. The initial steps, including data loading, preprocessing, and defining the neural network architecture, have been completed. The model has been trained and evaluated on the MNIST dataset, achieving a test accuracy of approximately 98%. I am currently looking into why the augmented datasets are only predicting 1s, despite it going fine in a test I did on another file.
 
 ## Next Steps
 
@@ -32,4 +34,4 @@ This project is a work in progress. The initial steps, including data loading, p
 - TensorFlow
 - Keras
 - NumPy
-- Matplotlib"# Handwritten-Digit-Recognition-with-Deep-Learning" 
+- Matplotlib
